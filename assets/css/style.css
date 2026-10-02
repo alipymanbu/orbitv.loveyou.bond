@@ -188,6 +188,16 @@ code { font-family: ui-monospace, Consolas, 'Courier New', monospace; }
 }
 .note b { color: var(--orange); }
 
+/* ---------- 界面一瞥 ---------- */
+.shots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.shot {
+  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  background: var(--panel); transition: border-color 0.25s, transform 0.25s;
+}
+.shot:hover { border-color: rgba(255, 46, 126, 0.45); transform: translateY(-3px); }
+.shot img { width: 100%; height: auto; }
+.shot figcaption { padding: 12px 14px; font-size: 13.5px; color: var(--muted); }
+
 /* 表格 */
 .tbl { width: 100%; border-collapse: collapse; font-size: 14.5px; }
 .tbl th, .tbl td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -283,6 +293,7 @@ code { font-family: ui-monospace, Consolas, 'Courier New', monospace; }
   .hero { padding: 52px 0 48px; }
   .hero-grid { grid-template-columns: 1fr; gap: 36px; }
   .grid3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .shots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .browse-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 860px) {
