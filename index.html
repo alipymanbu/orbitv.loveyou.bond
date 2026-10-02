@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbitv 介绍：全球公开电视直播应用的功能与用法 · 安卓安装包获取指引</title>
+<meta name="description" content="Orbitv 是一款聚合开放网络公开电视频道的直播播放器，覆盖安卓手机、平板与 Android TV / Fire TV。这里以第三方视角整理它的五大分区、按大洲与主题浏览、M3U 自定义直播源、Chromecast 投屏等玩法，并给出安卓安装文件资源的获取入口。">
+<meta name="keywords" content="orbitv,orbitv 下载,orbitv 安卓,IPTV 播放器,直播源 M3U,公开电视直播">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff2e7e'/%3E%3Cpath d='M12 9l12 7-12 7z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M7 5l13 7-13 7z" fill="#fff"/></svg>
+      </span>
+      <span class="brand-name">orbit<em>v</em></span>
+      <span class="brand-tag">全球公开电视 · 介绍站</span>
+    </a>
+    <button class="nav-toggle" aria-label="菜单" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="site-nav" aria-label="站内导航">
+      <a href="#sec-zones">五大分区</a>
+      <a href="#sec-browse">浏览与搜索</a>
+      <a href="#sec-personal">自定义直播源</a>
+      <a href="#sec-tv">投屏与电视</a>
+      <a href="#sec-faq">常见问题</a>
+      <a class="nav-cta" href="/download.html">获取安装文件资源</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 英雄区 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="chip"><span class="live-dot" aria-hidden="true"></span>第三方介绍站 · 整理自公开资料</span>
+        <h1>把全世界的公开电视，<br>装进<span class="grad-text">一块屏幕</span></h1>
+        <p class="lead">Orbitv 是一款面向安卓与大屏的直播聚合播放器，索引开放网络上的公开频道：按大洲与主题翻台、让助手按口味排台、还能接入自己的 M3U 直播源。本页整理它的功能与用法，文末给出安卓安装文件资源的获取入口。</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="/download.html">获取安装文件资源
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 21h16" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#sec-zones">先看功能介绍</a>
+        </div>
+        <div class="hero-meta">
+          <span><i></i>安卓 APK · v6.1.0</span>
+          <span><i></i>Android TV / Fire TV 可用</span>
+          <span><i></i>游客免注册即可看台</span>
+        </div>
+      </div>
+      <div class="tv-panel" aria-hidden="true">
+        <div class="tv-top">
+          <span class="sig">ORBITV · SIGNAL</span>
+          <span class="on-air">● ON AIR</span>
+        </div>
+        <div class="mosaic">
+          <div class="tile wide"><b>NEWS 24</b><i>国际新闻 · 多语种</i></div>
+          <div class="tile"><b>SPORT+</b><i>体育赛事</i></div>
+          <div class="tile alt"><b>DOCU</b><i>纪录 · 文化</i></div>
+          <div class="tile alt"><b>MUSIC</b><i>音乐 · 24 小时</i></div>
+          <div class="tile"><b>CINEMA</b><i>影视 · 娱乐</i></div>
+          <div class="tile"><b>KIDS</b><i>少儿 · 动画</i></div>
+          <div class="tile alt"><b>LOCAL</b><i>地方 · 民生</i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 跑马灯 -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span><b>非洲</b> 公开频道</span><span><b>美洲</b> 公开频道</span><span><b>亚洲</b> 公开频道</span><span><b>欧洲</b> 公开频道</span><span><b>大洋洲</b> 公开频道</span>
+      <span>新闻 · 体育 · 娱乐 · 音乐 · 文化教育</span><span>My List · Favorites · Frequent · All · Personal</span>
+      <span><b>非洲</b> 公开频道</span><span><b>美洲</b> 公开频道</span><span><b>亚洲</b> 公开频道</span><span><b>欧洲</b> 公开频道</span><span><b>大洋洲</b> 公开频道</span>
+      <span>新闻 · 体育 · 娱乐 · 音乐 · 文化教育</span><span>My List · Favorites · Frequent · All · Personal</span>
+    </div>
+  </div>
+
+  <!-- 01 五大分区 -->
+  <section class="sec" id="sec-zones">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="k">01 · LAYOUT</span>
+        <h2>五个常驻分区，一步可达</h2>
+        <p>Orbitv 的界面刻意保持克制：想看的、常看的、自己加的，都固定在底部的五个分区里，不用在层层菜单里翻找。</p>
+      </div>
+      <div class="grid3">
+        <div class="card reveal">
+          <span class="en">MY LIST</span>
+          <h3>会自己排台的个性化列表</h3>
+          <p>按你的语言、地区与主题偏好生成，随观看习惯持续调整排序，还会补充新的同类频道。</p>
+        </div>
+        <div class="card reveal">
+          <span class="en">FAVORITES</span>
+          <h3>收藏的必看台置顶直达</h3>
+          <p>在播放页或频道列表里点收藏即可加入，播放器界面里也能直接管理收藏。</p>
+        </div>
+        <div class="card reveal">
+          <span class="en">FREQUENT</span>
+          <h3>常看频道自动归拢</h3>
+          <p>最近经常看的台按使用频率自动收纳，不用刻意收藏也能一步进台。</p>
+        </div>
+        <div class="card reveal">
+          <span class="en">ALL</span>
+          <h3>全部内置频道的总目录</h3>
+          <p>开放网络上的公开频道都装在这里，配合大洲与主题筛选器使用效率最高。</p>
+        </div>
+        <div class="card reveal">
+          <span class="en">PERSONAL</span>
+          <h3>自己的直播源住这里</h3>
+          <p>M3U 列表与 m3u8 / mpd / mp4 直链都能加入，与内置频道出现在同一个目录里。</p>
+        </div>
+        <div class="card reveal">
+          <span class="en">HISTORY</span>
+          <h3>历史记录随时找回</h3>
+          <p>商店页面提到应用内有「历史」记录，最近看过的台可以随时翻回去。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 浏览与搜索 -->
+  <section class="sec" id="sec-browse">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="k">02 · DISCOVER</span>
+        <h2>按大洲翻，按主题筛，或者直接搜</h2>
+        <p>不想用搜索时，All 分区提供了两种翻台方式；界面上还有简单视图与高级视图两套，随时切换。</p>
+      </div>
+      <div class="browse-grid">
+        <div class="card reveal">
+          <span class="en">BY CONTINENT</span>
+          <h3>按大洲浏览</h3>
+          <p>适合「想看看某个地区有什么台」的场景。</p>
+          <div class="pill-box">
+            <span class="pill">非洲</span><span class="pill">美洲</span><span class="pill">亚洲</span><span class="pill">欧洲</span><span class="pill">大洋洲</span>
+          </div>
+        </div>
+        <div class="card reveal">
+          <span class="en">BY THEME</span>
+          <h3>按主题浏览</h3>
+          <p>适合「今晚就想看球、看新闻」的场景。</p>
+          <div class="pill-box">
+            <span class="pill">新闻</span><span class="pill">体育</span><span class="pill">娱乐</span><span class="pill">音乐</span><span class="pill">文化教育</span>
+          </div>
+        </div>
+      </div>
+      <div class="note reveal">
+        <b>一个容易误解的点：</b>各应用商店页面列出的「可看国家」互不相同，那只是宣传示例——设备上实际能看到哪些台，以应用内 All 分区的显示为准。
+      </div>
+      <div class="card reveal" style="margin-top:16px">
+        <span class="en">SEARCH</span>
+        <h3>按台名或按国家搜索</h3>
+        <p>知道台名直接搜：Bloomberg、CNN、BBC、NHK、Al Jazeera、DW、France 24 这类国际新闻台是最好找的一类，实际可用性随源变动；不记得台名就按国家搜，再在结果里挑。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 助手 -->
+  <section class="sec" id="sec-assistant">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="k">03 · ASSISTANT</span>
+        <h2>Recurrent TV Assistant：会替你排台的助手</h2>
+        <p>「My List」不是一份静态播放列表，而是一份会成长的频道单。</p>
+      </div>
+      <div class="grid3">
+        <div class="card reveal">
+          <span class="num">STEP 1</span>
+          <h3>告诉它你的口味</h3>
+          <p>首次使用时填入偏好的语言、国家与主题，助手据此生成一份 My List。</p>
+        </div>
+        <div class="card reveal">
+          <span class="num">STEP 2</span>
+          <h3>越看越懂你</h3>
+          <p>看一段时间后，列表会按实际观看调整排序，并补充新的同类频道；也可以随时让它重新整理。</p>
+        </div>
+        <div class="card reveal">
+          <span class="num">STEP 3</span>
+          <h3>随时手动干预</h3>
+          <p>把必看台置顶到 Favorites、删掉不再想看的，控制权始终在你手里。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 自定义直播源 -->
+  <section class="sec" id="sec-personal">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="k">04 · PERSONAL</span>
+        <h2>自定义直播源：M3U 与直链都能接</h2>
+        <p>手里已有合法可用的直播列表或直链，加进 Personal 分区后照常收藏、搜索，不用再切别的应用。</p>
+      </div>
+      <div class="tbl-wrap reveal">
+        <table class="tbl">
+          <thead><tr><th>类型</th><th>说明</th><th>载入方式</th></tr></thead>
+          <tbody>
+            <tr><td>M3U 播放列表</td><td>一份列表带多个频道，适合批量加入</td><td>从文件加载，或粘贴列表地址（URL）</td></tr>
+            <tr><td>m3u8 直链</td><td>常见的 HLS 流媒体地址</td><td>直接贴地址</td></tr>
+            <tr><td>mpd 直链</td><td>DASH 流媒体地址</td><td>直接贴地址</td></tr>
+            <tr><td>mp4 直链</td><td>直接的视频文件地址</td><td>直接贴地址</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note reveal">
+        <b>合法使用：</b>应用只索引开放网络上的公开流，不提供付费频道或订阅频道；Personal 里自行添加的源，合法性由添加者自己负责——只添加有权使用的来源。
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 投屏与电视 -->
+  <section class="sec" id="sec-tv">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="k">05 · BIG SCREEN</span>
+        <h2>投到客厅，或直接装进电视</h2>
+        <p>两条路都能上大屏：同一网络里投屏，或者给电视盒子装专门版本。</p>
+      </div>
+      <div class="grid2">
+        <div class="card reveal">
+          <span class="en">CHROMECAST</span>
+          <h3>投屏到 Chromecast 与智能电视</h3>
+          <p>手机与电视连同一个 Wi-Fi，播放器里出现投屏入口后选中目标设备即可；建议网络下行 10 Mbps 起步。选台、收藏这些操作仍在手机上进行。</p>
+        </div>
+        <div class="card reveal">
+          <span class="en">ANDROID TV / FIRE TV</span>
+          <h3>电视端有专门版本</h3>
+          <p>Android TV / Fire TV 可通过 Google Play 或 Amazon Appstore 安装专门版本；盒子上没有对应商店时，也可以把 APK 放进 U 盘或经局域网传到盒子里侧载。注意：内购升级在电视版不提供。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 升级与边界 -->
+  <section class="sec" id="sec-plus">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="k">06 · UPGRADES &amp; LIMITS</span>
+        <h2>升级档位，以及它不做什么</h2>
+        <p>先把边界说清楚，再用起来才不别扭。</p>
+      </div>
+      <div class="grid2">
+        <div class="card reveal">
+          <span class="en">ORBITV+ / X / PRO</span>
+          <h3>应用内可选的付费升级</h3>
+          <p>免费可用、带广告；升级后可减少广告，并解锁主题色、后台音频、画中画（PiP）、应用内音视频小窗等，商店页面还提到频道访问更快（3x faster）。具体以应用内页面与条款为准，Android TV 版不提供内购。</p>
+        </div>
+        <div class="card reveal">
+          <span class="en">NOT INCLUDED</span>
+          <h3>不含付费内容与大型赛事</h3>
+          <p>Netflix、Disney+、ESPN 这类付费订阅服务的内容不在其中；NBA、NFL、欧冠、英超、F1 等大型赛事也不在提供范围内。它的定位是开放网络公开频道的索引与播放。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sec" id="sec-faq">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="k">07 · FAQ</span>
+        <h2>常见问题</h2>
+      </div>
+      <details class="qa reveal">
+        <summary>需要注册账号吗？</summary>
+        <div class="qa-body">不需要。游客身份即可浏览与观看，装完直接用。注册是可选的，价值主要在收藏的跨设备同步——换手机时不用手动重收一遍。</div>
+      </details>
+      <details class="qa reveal">
+        <summary>频道点了黑屏或加载失败怎么办？</summary>
+        <div class="qa-body">先换两个别的台：能播说明是刚才那个台失效了，稍后再试即可；都不能播就查网络，或做一次「宽带 vs 移动流量」的对照测试来定位问题在哪个环节。开放网络源随时可能下线或迁移，单个台失效是常态。</div>
+      </details>
+      <details class="qa reveal">
+        <summary>为什么找不到我想看的某个台？</summary>
+        <div class="qa-body">它不提供付费或订阅频道，也不提供大型赛事转播。想看这类内容仍需要对应的付费服务。想要一个稳定可用的源，可以往 Personal 里添加自己有权使用的直播源。</div>
+      </details>
+      <details class="qa reveal">
+        <summary>网速有什么要求？</summary>
+        <div class="qa-body">10 Mbps 以上的下行速度体验较稳，画质更高的流要求更高。移动流量下信号波动比 Wi-Fi 明显；长时间用流量看直播产生的流量费与漫游费由使用者自行承担。</div>
+      </details>
+      <details class="qa reveal">
+        <summary>孩子可以用吗？</summary>
+        <div class="qa-body">安卓商店分级为 PEGI 3（全年龄），iOS App Store 分级为 16+，服务条款也写明面向 16 岁以上人群。家里同时有安卓和苹果设备的话，两边都要留意。</div>
+      </details>
+      <details class="qa reveal">
+        <summary>网盘里的安装包和商店版有区别吗？</summary>
+        <div class="qa-body">功能相同，只是版本新旧不同：网盘包固定为 6.1.0，商店版持续更新。装法与校验方式见<a href="/download.html">下载页</a>的说明。</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2>准备好看全球公开频道了？</h2>
+      <p>下载页整理了安装包参数、分步安装方法与 MD5 校验方式。</p>
+      <a class="btn btn-primary" href="/download.html">获取安装文件资源</a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-in">
+    <p>本页为第三方介绍页，内容整理自公开资料，仅供了解与参考；Orbitv 名称与相关商标归其权利人所有。展示素材与页面样式由本站自制，如有侵权请联系处理。安装文件资源请通过页面按钮前往网盘获取。</p>
+    <nav class="foot-links" aria-label="页脚链接">
+      <a href="/">首页</a>
+      <a href="/download.html">下载页</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- 右下角浮动按钮：返回顶部 + 下载 -->
+<div class="fab-stack">
+  <button class="fab fab-top" id="to-top" aria-label="返回顶部">↑</button>
+  <a class="fab fab-dl" href="#" data-link="download" aria-label="获取安装文件资源">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 21h16" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</div>
+
+<script src="/assets/js/links.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
